@@ -11,6 +11,6 @@ All universal or deep links for Wanted QA team
 
 [universal Link HKSG](https://wanted-qa.github.io/universal_link_HKSG.html)
 
-[Deep Link](https://wanted-qa.github.io/wanted_link.html)
+[Deep Link](https://wanted-qa.github.io/deep_link.html)
 
 [Mobile Web](https://wanted-qa.github.io/global.html)
