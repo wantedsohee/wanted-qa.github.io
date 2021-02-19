@@ -1,4 +1,4 @@
-# mobile link
+# Wanted App links
 All universal or deep links for Wanted QA team
 
 [Crawling Link](https://wanted-qa.github.io/crawling.html)
