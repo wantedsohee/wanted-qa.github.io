@@ -68,29 +68,26 @@ a {
 <h1> 이벤트 </h1>
 <a href="wanted://events/list/529"><p> 이벤트 리스트 > 이벤트(529) 상세 </p></a>
 <a href="wanted://events/529"><p> 이벤트(529) 상세 </p></a>
+  <input type="text" id="eventid"/>
+  <input type="button" value="확인" onclick="eventLink(eventid.value)"/>
+  <script>
+    function eventLink(value){
+      window.open("wanted://events/" + value)
+    }
+  </script>
 <hr color = "gray", size="10">
   
-<h1> 기타 </h1>
-<a href="wanted://topic"><p>topic list</p></a>
-<a href="wanted://topic?url=https://m.blog.naver.com/wantedlab/222078951241"><p>topic detail(화해개발팀)</p></a>
-<a href="wanted://daily"><p>today</p></a>
-<a href="wanted://notification"><p>notification</p></a>
-<a href="wanted://survey/14"><p>survey</p></a>
-<a href="wanted://salary"><p>salary</p></a>
-<a href="wanted://salary/648"><p>salary+HRD</p></a>
-<a href="wanted://themes/GlobalinSeoul"><p>GlobalinSeoul theme</p></a>
-<a href="wanted://profile/bookmarks"><p>Bookmark</p></a>
-<a href="wanted://profile/myvod"><p>myVOD</p></a>
-
 <h1>토픽 테스트 데이터</h1>
 <a href="wanted://topic?url=https://www.wanted.co.kr"><p>원티드홈</p></a>
 <a href="wanted://topic?url=https://m.blog.naver.com/PostView.nhn?blogId=serischic&logNo=220544534295&proxyReferer=https:%2F%2Fw"><p>topic detail</p></a>
 <a href="wanted://topic/url=https://m.blog.naver.com/PostView.nhn?blogId=serischic&logNo=220544534295&proxyReferer=https:%2F%2Fw"><p>잘못된 URI</p></a>
+<hr color = "gray", size="10">
   
  <h1>원티드+ 영상 목록</h1>
 <a href="wanted://wantedplus"><p>원티드+ 영상 목록 페이지</p></a>
 <a href="wanted://wantedplus?category=518"><p>원티드+ 영상 목록 - 개발 직군(NW)</p></a>  
   <a href="wanted://wantedplus?category=489"><p>원티드+ 영상 목록 - 개발 직군(wT)</p></a>  
+<hr color = "gray", size="10">
   
 <h1>퀘스트</h1>
 <a href="wanted://wdlist/{category_id}/{subcategory_id}"><p>DAY1,2,4,7,8 설정한 직군&직무가 있음</p></a>
@@ -108,4 +105,20 @@ a {
     }
   </script>
 <a href="wanted://cv"><p>DAY8 유저가 매치업 이력서가 없음</p></a>  
+  <hr color = "gray", size="10">
+  
+<h1> 기타 </h1>
+<a href="wanted://topic"><p>topic list</p></a>
+<a href="wanted://topic?url=https://m.blog.naver.com/wantedlab/222078951241"><p>topic detail(화해개발팀)</p></a>
+<a href="wanted://daily"><p>today</p></a>
+<a href="wanted://notification"><p>notification</p></a>
+<a href="wanted://survey/14"><p>survey</p></a>
+<a href="wanted://salary"><p>salary</p></a>
+<a href="wanted://salary/648"><p>salary+HRD</p></a>
+<a href="wanted://themes/GlobalinSeoul"><p>GlobalinSeoul theme</p></a>
+<a href="wanted://profile/bookmarks"><p>Bookmark</p></a>
+<a href="wanted://profile/myvod"><p>myVOD</p></a>
+
+
+  
 </html>
