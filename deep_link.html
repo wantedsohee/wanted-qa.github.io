@@ -109,9 +109,9 @@ a {
   </script>
 <a href="wanted://wdlist"><p>탐색 메인으로 이동</p></a>  
 <p>해당 직군 알람 설정 페이지</p>
-  <input type="text" id="category_id"/>
-  <input type="text" id="subcategory_id"/>
-  <input type="button" value="확인" onclick="alarmLink(category_id.value, subcategory_id.value)"/>
+  <input type="text" id="category_id2"/>
+  <input type="text" id="subcategory_id2"/>
+  <input type="button" value="확인" onclick="alarmLink(category_id2.value, subcategory_id2.value)"/>
   <script>
     function alarmLink(ci, si){
       window.open("wanted://wdlist/" + ci + "/" + si + "/notification")
