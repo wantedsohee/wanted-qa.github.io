@@ -98,6 +98,15 @@ a {
   
 <h1>퀘스트</h1>
 <a href="wanted://wdlist/{category_id}/{subcategory_id}"><p>DAY1,2,4,7,8 설정한 직군&직무가 있음</p></a>
+<p>설정한 직군&직무가 있음 : 해당 탐색으로 이동</p>
+  <input type="text" id="category_id"/>
+  <input type="text" id="subcategory_id"/>
+  <input type="button" value="확인" onclick="wdlistLink(category_id.value, subcategory_id.value)"/>
+  <script>
+    function wdlistLink(ci, si){
+      window.open("wanted://wdlist/" + ci + "/" + si)
+    }
+  </script>
 <a href="wanted://wdlist"><p>DAY1,2,4,7,8 유저가 설정한 직군&직무가 없음</p></a>  
 <a href="wanted://wdlist/{category_id}/{subcategory_id}/notification"><p>DAY3 설정한 직군&직무가 있음</p></a>
 <a href="wanted://wdlist/518/notification"><p>DAY3 설정한 직군&직무가 없음</p></a>  
