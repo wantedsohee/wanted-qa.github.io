@@ -108,8 +108,16 @@ a {
     }
   </script>
 <a href="wanted://wdlist"><p>DAY1,2,4,7,8 유저가 설정한 직군&직무가 없음</p></a>  
-<a href="wanted://wdlist/{category_id}/{subcategory_id}/notification"><p>DAY3 설정한 직군&직무가 있음</p></a>
-<a href="wanted://wdlist/518/notification"><p>DAY3 설정한 직군&직무가 없음</p></a>  
+<p>해당 직군 : 알림 신청</p>
+  <input type="text" id="c_id"/>
+  <input type="text" id="sc_id"/>
+  <input type="button" value="확인" onclick="alarmLink(c_id.value, sc_id.value)"/>
+  <script>
+    function alarmLink(c_id, sc_i){
+      window.open("wanted://wdlist/" + c_id + "/" + sc_i)
+    }
+  </script>  
+<a href="wanted://wdlist/518/notification"><p>개발 : 알림 신청</p></a>  
 <a href="wanted://profile/matching"><p>DAY5,6 프로필로 이동</p></a>
 <p>DAY8 유저가 매치업 이력서를 가지고 있음</p>
   <input type="text" id="resumeid"/>
