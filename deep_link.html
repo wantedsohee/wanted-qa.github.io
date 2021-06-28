@@ -97,8 +97,8 @@ a {
 <hr color = "gray", size="10">
   
 <h1>퀘스트</h1>
-<a href="wanted://onboarding/quest"><p>온보딩 퀘스트 상세페이지</p></a>
-<p>직군의 탐색 페이지로 이동</p>
+<a href="wanted://wdlist/{category_id}/{subcategory_id}"><p>DAY1,2,4,7,8 설정한 직군&직무가 있음</p></a>
+<p>설정한 직군&직무가 있음 : 해당 탐색으로 이동</p>
   <input type="text" id="category_id"/>
   <input type="text" id="subcategory_id"/>
   <input type="button" value="확인" onclick="wdlistLink(category_id.value, subcategory_id.value)"/>
@@ -107,19 +107,11 @@ a {
       window.open("wanted://wdlist/" + ci + "/" + si)
     }
   </script>
-<a href="wanted://wdlist"><p>탐색 메인으로 이동</p></a>  
-<p>해당 직군 알람 설정 페이지</p>
-  <input type="text" id="category_id2"/>
-  <input type="text" id="subcategory_id2"/>
-  <input type="button" value="확인" onclick="alarmLink(category_id2.value, subcategory_id2.value)"/>
-  <script>
-    function alarmLink(ci, si){
-      window.open("wanted://wdlist/" + ci + "/" + si + "/notification")
-    }
-  </script> 
-<a href="wanted://wdlist/518/notification"><p>개발 직군 알람 설정 페이지</p></a>  
-<a href="wanted://profile/matching"><p>프로필로 이동</p></a>
-<p>매치업 이력서로 이동</p>
+<a href="wanted://wdlist"><p>DAY1,2,4,7,8 유저가 설정한 직군&직무가 없음</p></a>  
+<a href="wanted://wdlist/{category_id}/{subcategory_id}/notification"><p>DAY3 설정한 직군&직무가 있음</p></a>
+<a href="wanted://wdlist/518/notification"><p>DAY3 설정한 직군&직무가 없음</p></a>  
+<a href="wanted://profile/matching"><p>DAY5,6 프로필로 이동</p></a>
+<p>DAY8 유저가 매치업 이력서를 가지고 있음</p>
   <input type="text" id="resumeid"/>
   <input type="button" value="확인" onclick="resumeLink(resumeid.value)"/>
   <script>
@@ -127,7 +119,7 @@ a {
       window.open("wanted://cv/" + value)
     }
   </script>
-<a href="wanted://cv"><p>이력서 홈으로 </p></a>  
+<a href="wanted://cv"><p>DAY8 유저가 매치업 이력서가 없음</p></a>  
   <hr color = "gray", size="10">
   
 <h1> 기타 </h1>
