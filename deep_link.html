@@ -97,23 +97,21 @@ a {
 <hr color = "gray", size="10">
   
 <h1>퀘스트</h1>
-<a href=“wanted://onboarding/quest”><p>퀘스트 상세페이지로 이동</p></a>
-<a href=“wanted://wdlist/{category_id}/{subcategory_id}”><p>DAY1,2,4,7,8 설정한 직군&직무가 있음</p></a>
-<a href=“wanted://wdlist”><p>DAY1,2,4,7,8 유저가 설정한 직군&직무가 없음</p></a>
-<a href=“wanted://wdlist/{category_id}/{subcategory_id}/notification”><p>DAY3 설정한 직군&직무가 있음</p></a>
-<a href=“wanted://wdlist/518/notification”><p>DAY3 설정한 직군&직무가 없음</p></a>
-<a href=“wanted://profile/matching”><p>DAY5,6 프로필로 이동</p></a>
+<a href="wanted://wdlist/{category_id}/{subcategory_id}"><p>DAY1,2,4,7,8 설정한 직군&직무가 있음</p></a>
+<a href="wanted://wdlist"><p>DAY1,2,4,7,8 유저가 설정한 직군&직무가 없음</p></a>  
+<a href="wanted://wdlist/{category_id}/{subcategory_id}/notification"><p>DAY3 설정한 직군&직무가 있음</p></a>
+<a href="wanted://wdlist/518/notification"><p>DAY3 설정한 직군&직무가 없음</p></a>  
+<a href="wanted://profile/matching"><p>DAY5,6 프로필로 이동</p></a>
 <p>DAY8 유저가 매치업 이력서를 가지고 있음</p>
-  <input type=“text” id=“resumeid”/>
-  <input type=“button” value=“확인” onclick=“resumeLink(resumeid.value)“/>
+  <input type="text" id="resumeid"/>
+  <input type="button" value="확인" onclick="resumeLink(resumeid.value)"/>
   <script>
     function resumeLink(value){
-      //window.open(“http://naver.com”);
-      window.open(“wanted://cv/” + value)
+      window.open("wanted://cv/" + value)
     }
   </script>
-<a href=“wanted://cv”><p>DAY8 유저가 매치업 이력서가 없음</p></a>
-  <hr color = “gray”, size=“10”>
+<a href="wanted://cv"><p>DAY8 유저가 매치업 이력서가 없음</p></a>  
+  <hr color = "gray", size="10">
   
 <h1> 기타 </h1>
 <a href="wanted://topic"><p>topic list</p></a>
