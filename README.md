@@ -20,3 +20,6 @@ All universal or deep links for Wanted QA team
 
 
 [Mobile Web](https://wanted-qa.github.io/global.html)
+
+
+[Dynamic Link](https://wanted-qa.github.io/dynamic_link.html)
