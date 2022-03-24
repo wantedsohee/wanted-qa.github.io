@@ -23,3 +23,5 @@ All universal or deep links for Wanted QA team
 
 
 [Dynamic Link](https://wanted-qa.github.io/dynamic_link.html)
+
+[Share Event](https://wanted-qa.github.io/shareevent.html)
