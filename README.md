@@ -25,3 +25,5 @@ All universal or deep links for Wanted QA team
 [Dynamic Link](https://wanted-qa.github.io/dynamic_link.html)
 
 [Share Event](https://wanted-qa.github.io/share_event.html)
+
+[MAINHOME(https://wanted-qa.github.io/20230511_MAINHOME_deep_link_TEST.html)
