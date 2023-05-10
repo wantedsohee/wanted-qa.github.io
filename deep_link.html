@@ -37,6 +37,23 @@ a {
 <a href="wanted://jobsfeed"><p>채용홈</p></a>
 <hr color = "gray", size="10">
   
+<h1> 경력인증 </h1>
+<a href="wanted://career-connect"><p>커리어 조회</p></a>
+<a href="wanted://career-report"><p>커리어 리포트</p></a>  
+<hr color = "gray", size="10">
+  
+<h1> AI 이력서 리뷰 </h1>
+<a href="wanted://cv/review"><p>AI 이력서 리뷰 신청/결과</p></a>
+<a href="wanted://cv/review/330"><p>AI 이력서 리뷰 결과 상세(330)</p></a>
+  <input type="text" id="reviewId"/>
+  <input type="button" value="review_id 입력 후 확인" onclick="reviewLink(reviewId.value)"/>
+  <script>
+    function reviewLink(value){
+      window.open("wanted://cv/review/" + value)
+    }
+  </script>
+<hr color = "gray", size="10">
+  
 <h1> 기업, 포지션 </h1>
 <a href="wanted://company/79?"><p>원티드(79) 기업</p></a>
 <a href="wanted://wd/150329"><p> 원티드 open 포지션 (150329) 상세</p></a>  
@@ -186,8 +203,6 @@ a {
 <a href="wanted://events/audition2021_apply"><p>해커리어 이벤트 #2</p></a>
 <a href="wanted://themes/JobsForCreators"><p>테마별채용_게임</p></a>
 <a href="https://dev6.wanted.co.kr/events/mk01?utm_source=wanted&utm_medium=share&utm_campaign=none"><p>커리어스쿼드 이벤트공유</p></a>
-<a href="wanted://career-connect"><p>커리어 조회</p></a>
-<a href="wanted://career-report"><p>커리어 리포트</p></a>
 <a href="wanted://salary"><p>직무 정보가 있는 연봉페이</p></a> 
   <a href="wanted://career-video/137"><p>원티드 톡 영상</p></a>
   <a href="wanted://inappweb?url=https://www.wanted.co.kr/"><p>원티드 오픈</p></a>
