@@ -38,11 +38,22 @@ a {
 
 </style>
 <hr color = "black", size="10" >
-<h1>MAINHOME 딥링크 테스트</h1>
+<h1> MYACTIVITIES 딥링크 테스트</h1>
 <hr color = "black", size="10" >
- 
-<h1> 확인을 해봅시다~ </h1>
-<a href="wanted://search?query=원티드랩"><p>search_원티드랩</p></a>
+
+  <h1> 포지션 페이지 </h1>
+<a href="wanted://wd/23758"><p>포지션(23758)</p></a>
+  <input type="text" id="wdId"/>
+  <input type="button" value="wd_id 입력 후 확인" onclick="wd(wdId.value)"/>
+  <script>
+    function wd(value){
+      window.open("wanted://wd/" + value)
+    }
+  </script>
+<hr color = "gray", size="10">
+  
+<h1> 슈퍼앱 딥링크 </h1>
+<a href="wanted://wd/{jobId}"><p>search_원티드랩</p></a>
 <a href="wanted://wdlist/518/676"><p>탐색 > QA,테스트 엔지니어 </p></a>
 <a href="wanted://wdlist/518/900/notification"><p>test2(dev)</p></a>  
 <a href="wanted://wdlist/513/843/notification"><p>test2(운영)</p></a>  
