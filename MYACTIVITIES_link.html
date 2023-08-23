@@ -112,6 +112,20 @@ a {
 
 <h1> AI 이력서 리뷰 </h1>
 <a href="wanted://cv/review"><p>AI 이력서 리뷰</p></a>
+<a href="wanted://cv/review/{review_id}"><p>포지션(23758)</p></a>
+  <input type="text" id="review_id"/>
+  <input type="button" value="review_id 입력 후 확인" onclick="wd(wdId.value)"/>
+  <script>
+    function wd(value){
+      window.open("wanted://wd/" + value)
+    }
+  </script>
 <hr color = "gray", size="10">
+  
+<h1> 신규항목 </h1>
+<a href="wanted://my/profile"><p>신규 프로필</p></a>
+<a href="wanted://my/activity"><p>내 활동</p></a> 
+<a href="wanted://my/following-company"><p>관심회사</p></a>  
+<hr color = "gray", size="10">  
   
 </html>
