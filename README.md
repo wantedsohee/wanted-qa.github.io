@@ -27,3 +27,7 @@ All universal or deep links for Wanted QA team
 [Share Event](https://wanted-qa.github.io/share_event.html)
 
 [MAINHOME](https://wanted-qa.github.io/MAINHOME_link.html)
+
+[내활동](https://wanted-qa.github.io/MYACTIVITIES_link.html)
+
+[AirBridge](https://wanted-qa.github.io/AirBridge.html)
