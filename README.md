@@ -31,3 +31,6 @@ All universal or deep links for Wanted QA team
 [내활동](https://wanted-qa.github.io/MYACTIVITIES_link.html)
 
 [AirBridge](https://wanted-qa.github.io/AirBridge.html)
+
+
+[포지션 상세 - 포인트](https://wanted-qa.github.io/point_reward.html)
