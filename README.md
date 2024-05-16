@@ -34,3 +34,5 @@ All universal or deep links for Wanted QA team
 
 
 [포지션 상세 - 포인트](https://wanted-qa.github.io/point_reward.html)
+
+[기업 상세](https://wanted-qa.github.io/merging.html)
